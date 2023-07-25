@@ -22,7 +22,7 @@
     .side-bar {
         width: 610px;
         margin-left: 2rem;
-        background-color: pink;
+        /* background-color: pink; */
     }
 
     .paginas-side-bar {
