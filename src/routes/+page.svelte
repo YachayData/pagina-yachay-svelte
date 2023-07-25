@@ -2,8 +2,10 @@
     import PostCard from '../components/PostCard.svelte'
     import { postArray } from '$lib/database.js';
     import SideBar from '../components/SideBar.svelte';
+    import NavBar from '../components/NavBar.svelte';
 </script>
 
+<NavBar />
 <center>
     <div class="content">
         <div>

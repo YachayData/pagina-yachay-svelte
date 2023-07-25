@@ -2,7 +2,8 @@
     export let post;
 </script>
 
-<div class="post-container">
+<!-- <div > -->
+<div class="post-container" onclick={`location.href='post/${post.id}';`} style="cursor: pointer;">
     <div class="image-container">
         <img src={post.imageUrl} alt="post"/>
     </div>
@@ -19,7 +20,7 @@
         margin-bottom: 1rem;
         height: 14rem ;
 
-        background-color: red;
+        /* background-color: red; */
     }
 
     img {
@@ -36,8 +37,10 @@
     .post-text {
         font: 1.2em serif;
         color: #555555;
+        text-align: left;
+        padding: 0rem 2rem;
 
-        background-color: green;
+        /* background-color: green; */
     }
 
     @media screen and (max-width: 600px) {
