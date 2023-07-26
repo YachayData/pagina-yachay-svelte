@@ -10,7 +10,7 @@ export default {
             pages: 'build',
             assets: 'build',
             fallback: undefined,
-            precompress: false,
+            // precompress: false,
             strict: true
         }),
         paths: {
