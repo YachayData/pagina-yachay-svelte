@@ -1,6 +1,6 @@
 <script>
     import PostCard from '../components/PostCard.svelte'
-    import { postArray } from '$lib/database.js';
+    import { postArray } from '../../static/database.js';
     import SideBar from '../components/SideBar.svelte';
     import NavBar from '../components/NavBar.svelte';
 </script>
