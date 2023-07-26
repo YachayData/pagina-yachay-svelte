@@ -6,9 +6,9 @@
 
 <div class="topnav">
     <div class="social-media-icons">
-        <a href="https://www.facebook.com/yachaydata" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/yachaydata" target="_blank class=" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/yachaydata/" target="_blank class=" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/yachaydata" target="_blank" class="fa fa-facebook"> </a>
+        <a href="https://twitter.com/yachaydata" target="_blank class=" class="fa fa-twitter"> </a>
+        <a href="https://www.instagram.com/yachaydata/" target="_blank class=" class="fa fa-instagram"> </a>
     </div>
 
     <div class="image-container">

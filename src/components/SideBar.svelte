@@ -1,6 +1,6 @@
 <script>
     import CoolText from '../components/CoolText.svelte';
-    import { postArray } from '$lib/database.js';
+    import { postArray } from '../../static/database.js';
 </script>
 
 <div class="side-bar">
@@ -84,9 +84,5 @@
         .side-bar {
             visibility: hidden;
         }
-    }
-
-    CoolText {
-        padding: 20px 0px;
     }
 </style>
