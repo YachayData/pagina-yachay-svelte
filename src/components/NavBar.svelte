@@ -2,13 +2,17 @@
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte'
 </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="topnav">
-    <a href="https://www.facebook.com/yachaydata" target="_blank">News</a>
-    <a href="#contact" target="_blank">Contact</a>
-    <a href="#about" target="_blank">About</a>
+    <div class="social-media-icons">
+        <a href="https://www.facebook.com/yachaydata" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/yachaydata" target="_blank class=" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/yachaydata/" target="_blank class=" class="fa fa-instagram"></a>
+    </div>
 
     <div class="image-container">
-        <a href="#about" target="_blank">
+        <a href="/">
             <img src="https://www.yachaydata.cl/wp-content/uploads/2021/02/a3-2.png" alt="logo" />
         </a>
     </div>
@@ -39,6 +43,34 @@
         /* border: 3px solid #dbe4ed; */
         /* background-color: red; */
     }
+
+    /* Social media icons */
+    .fa {
+        height: 30px;
+        width: 30px;
+        text-align: center;
+
+        padding: 10px 10px;
+        font-size: 30px;
+        text-decoration: none;
+        margin: 20px 10px;
+        border-radius: 50px;
+        
+        color: white;
+        background: #333333;
+    }
+
+    .fa-facebook:hover {
+        background: #3B5998;
+    }
+
+    .fa-twitter:hover {
+        background: #55ACEE;
+    }
+
+    .fa-instagram:hover {
+        background: #125688;
+    }
     
     /* .topnav a {
       float: left;
@@ -58,4 +90,32 @@
       background-color: #04AA6D;
       color: white;
     } */
+
+    .image-container {
+        text-align: center;
+        width: 76%;
+    }
+
+    /* .social-media-icons {
+        visibility: hidden;
+        background-color: ;
+    } */
+
+    
+    @media screen and (max-width: 990px) {
+        .social-media-icons {
+            visibility: hidden;
+            width: 0px;
+            /* background-color: red; */
+        }
+
+        .image-container {
+            width: 100%;
+        }
+
+        /* .topnav {
+            display: block;
+        } */
+    }
+
 </style>
