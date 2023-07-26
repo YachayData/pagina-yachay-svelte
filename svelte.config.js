@@ -13,9 +13,8 @@ export default {
             precompress: false,
             strict: true
         }),
-        basepath: '/pagina-yachay-svelte',
         paths: {
-            base: dev ? '' : '/pagina-yachay-svelte',
+            base: dev ? '' : process.env.BASE_PATH,
         },
 		
 		prerender: {
