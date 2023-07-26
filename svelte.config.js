@@ -10,11 +10,11 @@ export default {
             pages: 'build',
             assets: 'build',
             fallback: undefined,
-            // precompress: false,
+            precompress: false,
             strict: true
         }),
         paths: {
-            base: dev ? '' : process.env.BASE_PATH,
+            base: dev ? '' : 'pagina-yachay-svelte',
         },
 		
 		prerender: {
