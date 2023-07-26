@@ -2,13 +2,19 @@
     export let text;
 </script>
 
-<div class="lined">
-    <div class="cool-text">
-        {text}
+<div class="container">
+    <div class="lined">
+        <div class="cool-text">
+            {text}
+        </div>
     </div>
 </div>
 
 <style>
+    .container {
+        height: 30px;
+    }
+
     .cool-text {
         background-color: #ff005b;
         padding: 5px 13px;
@@ -24,19 +30,20 @@
         text-transform: uppercase;
         font-weight:bold;
 
+        height: 20px;
         width: fit-content;
     }
 
     .lined {
         position: relative;
         background: none;
-        height: 100px; /* Set the height of your div here */
+        height: 15px; /* Set the height of your div here */
     }
 
     .lined::before {
         content: "";
         position: absolute;
-        bottom: 85px;
+        bottom: 0;
         left: 0;
         width: 100%;
         height: 1px; /* Set the thickness of the line, e.g., 1px */

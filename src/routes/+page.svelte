@@ -28,12 +28,10 @@
     
 
     @media screen and (max-width: 900px) {
-        .side-bar {
-            visibility: hidden;
-        }
-
         .content {
             display: block;
+            text-align: center;
+            /* width: 100% */
         }
     }
 </style>
