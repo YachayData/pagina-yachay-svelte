@@ -14,7 +14,7 @@ export default {
             strict: true
         }),
         paths: {
-            base: dev ? 'pagina-yachay-svelte' : process.env.BASE_PATH,
+            base: 'pagina-yachay-svelte',
         },
 		
 		prerender: {
